@@ -267,3 +267,55 @@ li {
   width: 100%;
   padding: 0 8px;
 }
+.skills_section {
+  color: #000;
+  background-color: #f1f1f1;
+  padding: 64px 16px;
+}
+.skills_section .skills_content {
+  padding: 0 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.skills_section .skills_content .text_section {
+  width: 40%;
+}
+.skills_section .skills_content .text_section h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.skills_section .skills_content .text_section > p {
+  margin: 15px 0;
+  font-size: 15px;
+}
+.skills_section .skills_content .level_section {
+  width: 50%;
+  padding: 0 8px;
+}
+.skills_section .skills_content .level_section > p {
+  font-size: 15px;
+  letter-spacing: 4px;
+}
+.skills_section .skills_content .level_section > p i {
+  margin-right: 20px;
+}
+.skills_section .skills_content .level_section .box {
+  background-color: #9e9e9e;
+  text-align: center;
+  color: white;
+  margin: 15px 0;
+}
+.skills_section .skills_content .level_section .box > div {
+  color: #fff;
+  background-color: #616161;
+}
+.skills_section .skills_content .level_section .box .percent_1 {
+  width: 90%;
+}
+.skills_section .skills_content .level_section .box .percent_2 {
+  width: 85%;
+}
+.skills_section .skills_content .level_section .box .percent_3 {
+  width: 75%;
+}
