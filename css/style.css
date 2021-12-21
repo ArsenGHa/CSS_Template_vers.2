@@ -235,3 +235,31 @@ li {
   font-size: 14px;
   font-weight: 100;
 }
+.work_section {
+  text-align: center;
+  height: 110vh;
+}
+.work_section h3 {
+  margin-top: 8rem;
+  font-size: 24px;
+  font-weight: 400;
+}
+.work_section p {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+.work_section .our_works {
+  margin-top: 15px;
+  justify-content: space-between;
+  margin-left: 3%;
+}
+.work_section .our_works > div {
+  width: 24%;
+  display: flex;
+  margin-top: 20px;
+}
+.work_section .our_works > div > img {
+  width: 100%;
+  padding: 0 8px;
+}
