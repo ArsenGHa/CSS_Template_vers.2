@@ -220,6 +220,7 @@ li {
         >div {
             margin: 0 8px;
             box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+            box-sizing: inherit;
 
             h2 {
                 font-family: "Raleway", sans-serif;
@@ -260,6 +261,30 @@ li {
         }
 
         
+    }
+}
+
+.main_statistic {
+    background-color: rgb(95, 95, 95);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 30vh;
+    max-width: 100%;
+
+    .statistic_block {
+        color: white;
+        font-family: "Raleway", sans-serif;
+
+        .indicator {
+            font-size: 32px;
+        }
+
+        .field {
+            font-size: 14px;
+            font-weight: 100;
+        }
     }
 }
 
