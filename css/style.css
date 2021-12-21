@@ -271,6 +271,9 @@ li {
   width: 100%;
   padding: 0 8px;
 }
+.work_section .our_works > div > img:hover {
+  opacity: 0.5;
+}
 .skills_section {
   color: #000;
   background-color: #f1f1f1;
@@ -322,4 +325,117 @@ li {
 }
 .skills_section .skills_content .level_section .box .percent_3 {
   width: 75%;
+}
+.price_section {
+  padding: 128px 16px;
+  color: #fff;
+  background-color: #616161;
+  text-align: center;
+}
+.price_section > h3 {
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 24px;
+}
+.price_section > p {
+  font-size: 18px;
+}
+.price_section .price_list {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+.price_section .price_list .black_list {
+  width: 33.33%;
+  padding: 0 8px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+.price_section .price_list .black_list ul {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+.price_section .price_list .black_list ul:hover {
+  box-shadow: 4px 4px 8px 0 #223c50;
+}
+.price_section .price_list .black_list ul li {
+  border-bottom: 1px solid #ddd;
+  padding: 13px 16px;
+}
+.price_section .price_list .black_list ul li:nth-of-type(1) {
+  color: white;
+  background-color: black;
+  padding: 32px 16px;
+  font-size: 24px;
+}
+.price_section .price_list .black_list ul li:nth-of-type(6) h3 {
+  font-weight: 400;
+  margin: 10px 0;
+  letter-spacing: 4px;
+  font-size: 30px;
+}
+.price_section .price_list .black_list ul li:nth-of-type(6) span {
+  opacity: 0.6;
+}
+.price_section .price_list .black_list ul li:nth-of-type(7) {
+  padding: 24px 0;
+  background-color: #f1f1f1;
+}
+.price_section .price_list .black_list ul li:nth-of-type(7) button {
+  padding: 16px 24px;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  font-size: 15px;
+}
+.price_section .price_list .black_list ul li:nth-of-type(7) button:hover {
+  color: black;
+  background-color: #ccc;
+  cursor: pointer;
+}
+.price_section .price_list .red_list {
+  width: 33.33%;
+  padding: 0 8px;
+}
+.price_section .price_list .red_list ul {
+  color: #000;
+  background-color: #fff;
+}
+.price_section .price_list .red_list ul:hover {
+  box-shadow: 4px 4px 8px 0 #223c50;
+}
+.price_section .price_list .red_list ul li {
+  border-bottom: 1px solid #ddd;
+  padding: 13px 16px;
+}
+.price_section .price_list .red_list ul li:nth-of-type(1) {
+  color: white;
+  background-color: #ff3511;
+  padding: 48px 16px;
+  font-size: 24px;
+}
+.price_section .price_list .red_list ul li:nth-of-type(6) h3 {
+  font-weight: 400;
+  margin: 10px 0;
+  letter-spacing: 4px;
+  font-size: 30px;
+}
+.price_section .price_list .red_list ul li:nth-of-type(6) span {
+  opacity: 0.6;
+}
+.price_section .price_list .red_list ul li:nth-of-type(7) {
+  padding: 24px 0;
+  background-color: #f1f1f1;
+}
+.price_section .price_list .red_list ul li:nth-of-type(7) button {
+  padding: 16px 24px;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  font-size: 15px;
+}
+.price_section .price_list .red_list ul li:nth-of-type(7) button:hover {
+  color: black;
+  background-color: #ccc;
+  cursor: pointer;
 }
