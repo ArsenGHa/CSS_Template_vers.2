@@ -109,7 +109,7 @@ li {
   font-size: 24px;
   font-weight: 100;
 }
-.main_about p {
+.main_about > p {
   font-size: 18px;
   margin: 18px 0;
 }
@@ -158,4 +158,59 @@ li {
 }
 .promo_section .promo_content .promo_img img {
   border-radius: 8px;
+}
+.name_list {
+  padding: 8rem 1.5rem;
+}
+.name_list h3 {
+  text-align: center;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 24px;
+}
+.name_list > p {
+  text-align: center;
+  font-size: 18px;
+}
+.name_list .card_list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-top: 64px;
+}
+.name_list .card_list > div {
+  margin: 0 8px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.name_list .card_list > div h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 24px;
+  padding: 0 16px;
+}
+.name_list .card_list > div .position {
+  opacity: 0.7;
+}
+.name_list .card_list > div > p {
+  padding: 0 16px;
+  font-size: 15px;
+}
+.name_list .card_list > div img {
+  width: 100%;
+  filter: grayscale(75%);
+}
+.name_list .card_list > div button {
+  color: black;
+  font-size: 15px;
+  display: inline-block;
+  padding: 10px;
+  width: 100%;
+  border: 0;
+  font-family: "Raleway", sans-serif;
+  margin: 15px 0;
+}
+.name_list .card_list > div button:hover {
+  background-color: #ccc;
 }
