@@ -126,3 +126,36 @@ li {
   font-size: 15px;
   text-indent: 10px;
 }
+.promo_section {
+  color: black;
+  background-color: #f1f1f1;
+  padding: 128px 24px;
+  height: 90vh;
+}
+.promo_section .promo_content {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 8px;
+  justify-content: space-between;
+}
+.promo_section .promo_content .promo_text h3 {
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 24px;
+}
+.promo_section .promo_content .promo_text > p {
+  margin: 15px 0;
+}
+.promo_section .promo_content .promo_text > p > a {
+  color: white;
+  background-color: black;
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  text-align: center;
+}
+.promo_section .promo_content .promo_img img {
+  border-radius: 8px;
+}
