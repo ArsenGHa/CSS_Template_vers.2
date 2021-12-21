@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    line-height: 1.5;
+    font-family: Verdana,sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    font-family: "Raleway", sans-serif;
+
+    .navbar_content {
+        background-color: white;
+        justify-content: space-between;
+        display: flex;
+        vertical-align: middle;
+        text-align: center;
+        .logo {
+            letter-spacing: 4px;
+        }
+        
+        
+
+        ul {
+            display: flex;
+            max-width: 100%;
+        }
+
+        a {
+            color: black;
+            display: inline-block;
+            padding: 16px;
+            white-space: normal;
+            &:hover {
+                background-color: #ccc;
+            }
+        }
+    }
+}
+
