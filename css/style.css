@@ -439,3 +439,52 @@ li {
   background-color: #ccc;
   cursor: pointer;
 }
+.contact_area {
+  color: #000;
+  background-color: #f1f1f1;
+  padding: 128px 16px;
+  line-height: 1.8;
+}
+.contact_area > h3 {
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 24px;
+  text-align: center;
+}
+.contact_area > p {
+  font-size: 18px;
+  text-align: center;
+}
+.contact_area .form_area {
+  margin-top: 48px;
+}
+.contact_area .form_area > p > i {
+  text-align: center;
+  font-size: 36px;
+  margin-right: 16px;
+}
+.contact_area .form_area form {
+  margin-top: 36px;
+}
+.contact_area .form_area form > p {
+  margin: 15px 0;
+}
+.contact_area .form_area form > p input {
+  border: 1px solid #ccc;
+  padding: 8px;
+  display: block;
+  width: 100%;
+  font: inherit;
+  margin: 0;
+}
+.contact_area .form_area form > p button {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 14px 16px;
+  text-align: center;
+}
+.contact_area .form_area iframe {
+  width: 100%;
+  margin-top: 48px;
+}
