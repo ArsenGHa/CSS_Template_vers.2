@@ -21,6 +21,7 @@ li {
   width: 100%;
   z-index: 1;
   font-family: "Raleway", sans-serif;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 .navbar .navbar_content {
   background-color: white;
@@ -97,4 +98,31 @@ li {
 }
 .main_header .icon i:hover {
   color: #585858;
+}
+.main_about {
+  text-align: center;
+  height: 70vh;
+  padding: 0 28px;
+}
+.main_about h3 {
+  margin-top: 8rem;
+  font-size: 24px;
+  font-weight: 100;
+}
+.main_about p {
+  font-size: 18px;
+  margin: 18px 0;
+}
+.main_about .service_list {
+  display: flex;
+  justify-content: space-around;
+  padding: 16px 12px;
+}
+.main_about .service_list i {
+  font-size: 64px;
+  margin: 20px 0;
+}
+.main_about .service_list .service_description {
+  font-size: 15px;
+  text-indent: 10px;
 }
