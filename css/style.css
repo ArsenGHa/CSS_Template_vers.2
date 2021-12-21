@@ -5,8 +5,9 @@
 }
 body {
   height: 100%;
-  line-height: 1.5;
+  line-height: 1.8;
   font-family: Verdana, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 a {
   text-decoration: none;
@@ -43,4 +44,57 @@ li {
 }
 .navbar .navbar_content a:hover {
   background-color: #ccc;
+}
+.main_header {
+  background-image: url(https://www.w3schools.com/w3images/mac.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  height: 100vh;
+}
+.main_header .header_content {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  padding: 48px;
+  max-width: 100%;
+}
+.main_header .header_content > h1 {
+  font-size: 64px;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+.main_header .header_content > span {
+  font-size: 18px;
+}
+.main_header .header_content > p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-top: 40px;
+}
+.main_header .header_content > p > a {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+  padding: 17px 24px;
+  font-size: 18px;
+}
+.main_header .header_content > p > a:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.main_header .icon {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #757575;
+  padding: 24px 48px;
+  font-size: 18px;
+}
+.main_header .icon i:hover {
+  color: #585858;
 }
